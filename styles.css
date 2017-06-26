@@ -19,8 +19,24 @@
   font-size: 20px;
 }
 
-.navbar {
+div {
+  background-color: #483f47;
+}
 
+#navbar0 {
+  margin-top: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  display: inline;
+  text-decoration-color: white;
+}
+
+button {
+  margin-left: 45px;
+  margin-right: 45px;
+  background-color: #ffffff80;
 }
 
 .outerbox {
