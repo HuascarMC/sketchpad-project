@@ -1,3 +1,5 @@
-$(document).ready(function() {
-    console.log('welcome to sketchpad cunt');
-  });  
+$(document).ready(function(){
+   $('.col').mouseenter(function() {
+     $(this).addClass('colon');
+  });
+});
