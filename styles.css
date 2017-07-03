@@ -8,7 +8,7 @@
 }
 
 .titlelogo {
-  background-color: #e38f52;
+  background-color: #483f47;
   height: 25px;
   width: 100%;
   padding: 30px 0 30px 0;
@@ -23,18 +23,25 @@
 #navbar0 {
   margin-top: 0;
   padding: 0;
-  background-color: #483f47;
+  background-color: #5E5959;
 }
 
 .navbar1 {
   display: inline;
   text-decoration-color: white;
+  background-color: #5E5959;
+  outline: 0.5px;
+  color: white;
 }
 
 button {
   margin-left: 45px;
   margin-right: 45px;
-  background-color: #ffffff80;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: ;
+  border-radius: 2px;
+  padding: 0px 0px 0px 0px;
 }
 
 #outerbox {
@@ -42,8 +49,10 @@ button {
   height: 400px;
   margin: 50px;
   border-radius: 10px;
-  background-color: #e38f52;
+  background-color: #a68d98;
   padding: 12px 12px 12px 12px;
+  outline: solid;
+  outline-color: #988686;
 }
 
 .row {
@@ -62,4 +71,10 @@ button {
 
 .colon {
   background: #FFFFFFFF;
+}
+
+.footer {
+  padding: 5px 15px 40px 15px;
+  margin: 0px 0px 0px 0px;
+  background-color: #483f47;
 }
