@@ -4,6 +4,7 @@
   background-color: #a79696;
   position: absolute;
   margin: 0 0 0 0;
+  overflow-x: hidden;
 }
 
 .titlelogo {
@@ -19,13 +20,10 @@
   font-size: 20px;
 }
 
-div {
-  background-color: #483f47;
-}
-
 #navbar0 {
   margin-top: 0;
   padding: 0;
+  background-color: #483f47;
 }
 
 .navbar1 {
@@ -39,24 +37,29 @@ button {
   background-color: #ffffff80;
 }
 
-.outerbox {
-  width: 600px;
+#outerbox {
+  width: 400px;
   height: 400px;
-  margin: 100px;
+  margin: 50px;
   border-radius: 10px;
   background-color: #e38f52;
-}
-
-.grid {
-  width: 100%;
-  height:100%;
+  padding: 12px 12px 12px 12px;
 }
 
 .row {
-  height: 10%;
-  width: 100%;
+    display: inline-block;
+    float: left;
 }
 
-.colon{
-  background-color: black;
+.col {
+    margin: 0px;
+    outline: 0px solid;
+    background-color: #FFFFFFFF;
+    float: left;
+    display: inline-block;
+    padding: 1px;
+  }
+
+.colon {
+  background: #FFFFFFFF;
 }
